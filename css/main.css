@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+html,
+body {
+    font-family: 'Roboto', Courier, monospace;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+h5,
+h6 {
+    color: #f2db18;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+h1,
+h2 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.text-primary {
+    color: #133066 !important;
+}
+
+.text-warning {
+    color: #f2db18 !important;
+}
+
+
+/*** top nav language**/
+.top_nav {
+    background-color: #032154;
+    color: white;
+    padding: 5px 0;
+}
+
+ul.social_icon {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    font-size: 12px;
+}
+
+.language > button {
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+.language > button > i:last-child {
+    background-color: #f2db18;
+    padding: 0px 3px;
+}
+
+/*** social icon***/
+ul.social_icon > li > a {
+    color: white;
+    margin: 0 5px;
+}
+
+/** bottom nav**/
+.bottom_nav {
+    background-color: #032154;
+}
+
+ul.nav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+ul.search__sign {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.nav__list > li > a {
+    color: white;
+    padding: 15px;
+    display: block;
+    margin: 0 10px;
+}
+
+ul.nav__list > li:first-child a {
+    margin-left: 0;
+    background-color: #f2db18;
+}
+
+ul.search__sign > li:last-child a {
+    color: white;
+    background-color: #f2db18;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+ul.search__sign > li {
+    margin-left: 35px;
+}
+
+/*** Home slider ***/
+.slider {
+    background-image: linear-gradient(90deg, rgba(18,48,102,0.804359243697479) 0%, rgba(18,48,102,0.7987570028011204) 100%), url(../img/bg.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4.about_us::after {
+    content: "";
+    background-color: #f2db18;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    margin: 15px;
+}
